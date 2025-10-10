@@ -1,2 +1,1 @@
-# devjobs
-DevJobs Web
+# DevJobs Web
