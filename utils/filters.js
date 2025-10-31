@@ -1,5 +1,5 @@
 const filter = document.querySelector("#filter-location");
-const mensaje = document.querySelector("#filter-selected-value");
+const message = document.querySelector("#filter-selected-value");
 
 filter.addEventListener("change", function () {
 	const jobs = document.querySelectorAll(".job-listing-card");
@@ -7,15 +7,14 @@ filter.addEventListener("change", function () {
 	const selectedValue = filter.value;
 
 	if (selectedValue) {
-		mensaje.textContent = `Has seleccionado: ${selectedValue}`;
+		message.textContent = `Has seleccionado: ${selectedValue}`;
 	} else {
-		mensaje.textContent = "";
+		message.textContent = "";
 	}
 
 	jobs.forEach((job) => {
-		// const modalidad = job.dataset.modalidad
-		const modalidad = job.getAttribute("data-mode");
-		const isShown = selectedValue === "" || selectedValue === modalidad;
+		const mode = job.getAttribute("data-mode");
+		const isShown = selectedValue === "" || selectedValue === mode;
 		job.classList.toggle("is-hidden", isShown === false);
 	});
 });

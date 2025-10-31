@@ -1,6 +1,6 @@
 class DevJobsAvatar extends HTMLElement {
 	constructor() {
-		super(); // llamar al constructor de HTMLElement
+		super();
 
 		this.attachShadow({ mode: "open" });
 	}
@@ -11,7 +11,7 @@ class DevJobsAvatar extends HTMLElement {
 
 	render() {
 		const service = this.getAttribute("service") ?? "github";
-		const username = this.getAttribute("username") ?? "midudev";
+		const username = this.getAttribute("username") ?? "christian-jfr";
 		const size = this.getAttribute("size") ?? "40";
 
 		const url = this.createUrl(service, username);
