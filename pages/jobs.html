@@ -37,10 +37,10 @@
 			</nav>
 
 			<div>
-				<devjobs-avatar service="github" username="christian-jfr" size="32">
+				<devjobs-avatar service="github" username="christian-jfr" size="40">
 				</devjobs-avatar>
 
-				<devjobs-avatar service="twitch" username="cj_zerolf" size="32">
+				<devjobs-avatar service="twitch" username="cj_zerolf" size="40">
 				</devjobs-avatar>
 			</div>
 		</header>
@@ -81,33 +81,53 @@
 					<div class="search-filters">
 						<select name="technology" id="filter-technology">
 							<option value="">Tecnología</option>
-							<optgroup label="Tecnologías populares">
+							<optgroup label="Lenguajes de Programación">
 								<option value="javascript">JavaScript</option>
+								<option value="typescript">TypeScript</option>
 								<option value="python">Python</option>
-								<option value="react">React</option>
-								<option value="nodejs">Node.js</option>
+								<option value="swift">Swift</option>
+								<option value="kotlin">Kotlin</option>
+								<option value="java">Java</option>
+								<option value="csharp">C#</option>
+								<option value="c++">C++</option>
+								<option value="ruby">Ruby</option>
+								<option value="php">PHP</option>
 							</optgroup>
-							<option value="java">Java</option>
+
+							<optgroup label="Frameworks">
+								<option value="rails">Ruby on Rails</option>
+								<option value="spring">Spring Boot</option>
+								<option value="django">Django</option>
+								<option value="fastapi">FastAPI</option>
+							</optgroup>
 							<hr />
-							<option value="csharp">C#</option>
-							<option value="c">C</option>
-							<option value="c++">C++</option>
-							<hr />
-							<option value="ruby">Ruby</option>
-							<option value="php">PHP</option>
+							<option value="nodejs">Node.js</option>
+							<option value="express">Express</option>
+							<option value="react">React</option>
+							<option value="react native">React Native</option>
+							<option value="flutter">Flutter</option>
+							<option value="pandas">Pandas</option>
+							<option value="sql">SQL</option>
+							<option value="postgresql">PostgreSQL</option>
+							<option value="mongodb">MongoDB</option>
+							<option value="aws">AWS</option>
+							<option value="azure">Azure</option>
+							<option value="powerbi">Power BI</option>
+							<option value="figma">Figma</option>
 						</select>
 
 						<select name="location" id="filter-location">
 							<option value="">Ubicación</option>
-							<option value="remote">Remoto</option>
-							<option value="mexico">México</option>
 							<option value="argentina">Argentina</option>
-							<option value="españa">España</option>
-							<option value="peru">Perú</option>
 							<option value="chile">Chile</option>
+							<option value="colombia">Colombia</option>
+							<option value="españa">España</option>
+							<option value="mexico">México</option>
+							<option value="peru">Perú</option>
+							<option value="remote">Remoto</option>
 						</select>
 
-						<select name="experience-level" id="filter-experience-level">
+						<select name="seniority" id="filter-seniority">
 							<option value="">Nivel de experiencia</option>
 							<option value="junior">Junior</option>
 							<option value="mid">Mid-level</option>
@@ -116,16 +136,12 @@
 						</select>
 					</div>
 				</form>
-
-				<span id="filter-selected-value"></span>
 			</section>
 
 			<section>
 				<h2>Resultados de búsqueda</h2>
 
-				<div class="jobs-listings">
-					<!-- Aquí se insertan los empleos dinámicamente -->
-				</div>
+				<div class="jobs-listings"></div>
 
 				<nav class="pagination">
 					<a href="#"

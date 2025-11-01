@@ -68,7 +68,6 @@ select {
 	}
 }
 
-/* Títulos principales */
 h1 {
 	font-size: 1.5rem;
 	line-height: 1.2;
@@ -89,7 +88,6 @@ h1 + p {
 	margin-bottom: 2rem;
 }
 
-/* Header */
 header {
 	border-bottom: 1px solid var(--border);
 	background: var(--background);
@@ -106,7 +104,6 @@ header {
 	}
 }
 
-/* Navegación del header a otras páginas */
 nav {
 	align-items: center;
 	gap: 1rem;
@@ -126,7 +123,6 @@ nav {
 	}
 }
 
-/* Botones del Header */
 header div a {
 	padding: 0.5rem 1rem;
 	border-radius: 0.5rem;
@@ -136,10 +132,8 @@ header div a {
 	font-size: 0.875rem;
 	font-weight: 700;
 	text-decoration: none;
-	/* TODO */
 }
 
-/* Hero */
 main > section:nth-child(1) {
 	height: 500px;
 	text-align: center;
@@ -168,7 +162,6 @@ main > section:nth-child(1) {
 	}
 }
 
-/* Formulario de Búsqueda */
 form {
 	max-width: 42rem;
 	width: 100%;
@@ -239,7 +232,6 @@ button {
 	}
 }
 
-/* Features Section */
 main > section:nth-child(2) {
 	padding-inline: 1rem;
 	background-color: var(--background);
@@ -278,40 +270,12 @@ main > section:nth-child(2) > div > div:first-child > p {
 	margin: 0 auto;
 }
 
-/* Grid de Features */
 main > section:nth-child(2) footer {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	gap: 16px;
 }
 
-/* Feature Cards */
-/* article {
-  background-color: var(--card-bg);
-  padding: 2rem;
-  margin-bottom: 16px;
-  border-radius: 0.5rem;
-  box-shadow: 0px 1px 3px 0 var(--shadow);
-
-  svg {
-    color: var(--primary-light);
-    background: rgba(0, 153, 255, 0.3);
-    border-radius: 9999px;
-    width: 64px;
-    height: 64px;
-    padding: 16px;
-  }
-
-  h3 {
-    font-weight: 500;
-  }
-
-  p {
-    color: var(--text-muted);
-  }
-} */
-
-/* Footer */
 footer {
 	background-color: var(--background);
 	border-top: 1px solid var(--border);
@@ -349,7 +313,6 @@ article {
 	}
 }
 
-/* Jobs Search */
 .jobs-search {
 	margin: 0;
 	padding: 0;

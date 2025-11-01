@@ -9,9 +9,10 @@ fetch("../data.json")
 			const article = document.createElement("article");
 			article.className = "job-listing-card";
 
+			article.dataset.title = job.title.toLowerCase();
 			article.dataset.mode = job.data.mode;
 			article.dataset.seniority = job.data.seniority;
-			article.dataset.technology = job.data.technology;
+			article.dataset.technology = job.data.technology.join(" ");
 
 			const wrapper = document.createElement("div");
 

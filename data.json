@@ -6,7 +6,15 @@
 		"location": "Remoto",
 		"description": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
 		"data": {
-			"technology": ["react", "node", "javascript"],
+			"technology": [
+				"react",
+				"nodejs",
+				"javascript",
+				"typescript",
+				"html",
+				"css",
+				"git"
+			],
 			"mode": "remote",
 			"seniority": "senior"
 		}
@@ -18,7 +26,15 @@
 		"location": "Ciudad de México",
 		"description": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.",
 		"data": {
-			"technology": "python",
+			"technology": [
+				"python",
+				"sql",
+				"r",
+				"pandas",
+				"numpy",
+				"tableau",
+				"powerbi"
+			],
 			"mode": "mexico",
 			"seniority": "junior"
 		}
@@ -30,9 +46,16 @@
 		"location": "Medellin",
 		"description": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"swift",
+				"kotlin",
+				"react native",
+				"flutter",
+				"android studio",
+				"xcode"
+			],
 			"mode": "colombia",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -42,9 +65,17 @@
 		"location": "Remoto",
 		"description": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"aws",
+				"azure",
+				"gcp",
+				"docker",
+				"kubernetes",
+				"jenkins",
+				"terraform"
+			],
 			"mode": "remote",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -54,9 +85,16 @@
 		"location": "Barcelona",
 		"description": "Estamos buscando un diseñador UX/UI con pasión por crear experiencias digitales excepcionales. Se requiere experiencia en Figma, diseño centrado en el usuario y colaboración con equipos de desarrollo.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"figma",
+				"adobe xd",
+				"sketch",
+				"photoshop",
+				"illustrator",
+				"prototyping"
+			],
 			"mode": "españa",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -66,9 +104,16 @@
 		"location": "CABA",
 		"description": "Se busca un administrador de bases de datos con experiencia en PostgreSQL y MySQL. El candidato deberá asegurar la disponibilidad, seguridad y rendimiento de las bases de datos de producción.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"postgresql",
+				"mysql",
+				"mongodb",
+				"redis",
+				"sql",
+				"backup recovery"
+			],
 			"mode": "argentina",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -78,9 +123,17 @@
 		"location": "Remoto",
 		"description": "Buscamos un especialista en ciberseguridad con conocimientos en protección de infraestructuras, análisis de vulnerabilidades y respuesta ante incidentes. Se valorará experiencia con SIEM y certificaciones de seguridad.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"splunk",
+				"wireshark",
+				"metasploit",
+				"nessus",
+				"firewalls",
+				"siem",
+				"soc"
+			],
 			"mode": "remote",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -90,7 +143,14 @@
 		"location": "Madrid",
 		"description": "Estamos buscando un Product Manager con experiencia en la definición y lanzamiento de productos digitales. Se requiere capacidad analítica, liderazgo y conocimiento en metodologías ágiles.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"jira",
+				"confluence",
+				"scrum",
+				"kanban",
+				"analytics",
+				"product strategy"
+			],
 			"mode": "españa",
 			"seniority": "senior"
 		}
@@ -102,9 +162,17 @@
 		"location": "Guadalajara",
 		"description": "Buscamos un desarrollador frontend con experiencia en React, TypeScript y Tailwind CSS. Se valorará conocimiento en optimización de rendimiento y accesibilidad web.",
 		"data": {
-			"technology": "react",
+			"technology": [
+				"react",
+				"typescript",
+				"tailwind css",
+				"javascript",
+				"html5",
+				"css3",
+				"webpack"
+			],
 			"mode": "mexico",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -114,7 +182,15 @@
 		"location": "Bogotá",
 		"description": "Estamos buscando un desarrollador backend con experiencia en Node.js, Express y bases de datos NoSQL. Se requiere conocimiento en arquitectura de microservicios.",
 		"data": {
-			"technology": "node",
+			"technology": [
+				"nodejs",
+				"express",
+				"mongodb",
+				"redis",
+				"rest api",
+				"microservices",
+				"docker"
+			],
 			"mode": "colombia",
 			"seniority": "mid"
 		}
@@ -126,7 +202,15 @@
 		"location": "Remoto",
 		"description": "Buscamos un ingeniero de machine learning con experiencia en modelos de predicción y procesamiento de datos. Se valorará conocimiento en TensorFlow, PyTorch y MLOps.",
 		"data": {
-			"technology": "python",
+			"technology": [
+				"python",
+				"tensorflow",
+				"pytorch",
+				"scikit-learn",
+				"mlops",
+				"docker",
+				"kubernetes"
+			],
 			"mode": "remote",
 			"seniority": "senior"
 		}
@@ -138,9 +222,17 @@
 		"location": "Lima",
 		"description": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress o Playwright. Conocimiento deseado en CI/CD.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"selenium",
+				"cypress",
+				"playwright",
+				"jest",
+				"jenkins",
+				"gitlab ci",
+				"test automation"
+			],
 			"mode": "peru",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -150,9 +242,17 @@
 		"location": "Santiago de Chile",
 		"description": "Buscamos un administrador de sistemas con experiencia en Linux, Docker y monitoreo de servidores. Conocimiento en scripting Bash o Python será un plus.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"linux",
+				"docker",
+				"bash",
+				"python",
+				"monitoring",
+				"ansible",
+				"nginx"
+			],
 			"mode": "chile",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -162,9 +262,16 @@
 		"location": "Madrid",
 		"description": "Estamos buscando un Scrum Master con experiencia en metodologías ágiles y gestión de equipos multidisciplinarios. Certificación Scrum Master deseable.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"scrum",
+				"kanban",
+				"jira",
+				"confluence",
+				"agile methodology",
+				"team leadership"
+			],
 			"mode": "españa",
-			"seniority": "mid-level"
+			"seniority": "mid"
 		}
 	},
 	{
@@ -174,9 +281,116 @@
 		"location": "Monterrey",
 		"description": "Buscamos un técnico de soporte con habilidades en resolución de incidencias, redes y sistemas operativos. Se requiere atención al detalle y excelente trato con el usuario.",
 		"data": {
-			"technology": "mobile",
+			"technology": [
+				"windows",
+				"linux",
+				"networking",
+				"troubleshooting",
+				"helpdesk",
+				"remote support"
+			],
 			"mode": "mexico",
 			"seniority": "junior"
+		}
+	},
+	{
+		"id": "d8e9f2a1-4b5c-6d7e-8f9a-1b2c3d4e5f6a",
+		"title": "Data Scientist",
+		"company": "Analytics Pro",
+		"location": "Remoto",
+		"description": "Buscamos un científico de datos con experiencia en modelos predictivos y análisis estadístico. El candidato ideal debe tener conocimientos en machine learning, procesamiento de datos y visualización.",
+		"data": {
+			"technology": [
+				"python",
+				"r",
+				"sql",
+				"pandas",
+				"scikit-learn",
+				"tensorflow",
+				"tableau"
+			],
+			"mode": "remote",
+			"seniority": "senior"
+		}
+	},
+	{
+		"id": "f3a4b5c6-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+		"title": "Cloud Architect",
+		"company": "Cloud Innovations",
+		"location": "Buenos Aires",
+		"description": "Estamos buscando un arquitecto cloud con experiencia en diseño de infraestructuras escalables y seguras. Conocimiento avanzado en servicios cloud y arquitecturas de microservicios.",
+		"data": {
+			"technology": [
+				"aws",
+				"azure",
+				"kubernetes",
+				"terraform",
+				"docker",
+				"ci/cd",
+				"microservices"
+			],
+			"mode": "argentina",
+			"seniority": "senior"
+		}
+	},
+	{
+		"id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+		"title": "Full Stack Developer",
+		"company": "Digital Solutions",
+		"location": "Bogotá",
+		"description": "Necesitamos un desarrollador full stack con experiencia en ambas partes del desarrollo. Conocimiento en React para frontend y Node.js para backend, así como bases de datos SQL.",
+		"data": {
+			"technology": [
+				"react",
+				"nodejs",
+				"javascript",
+				"postgresql",
+				"express",
+				"html",
+				"css"
+			],
+			"mode": "colombia",
+			"seniority": "mid"
+		}
+	},
+	{
+		"id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+		"title": "Cybersecurity Analyst",
+		"company": "Secure Systems",
+		"location": "Ciudad de México",
+		"description": "Buscamos un analista de ciberseguridad para monitoreo de redes, detección de vulnerabilidades y respuesta a incidentes. Experiencia en herramientas SIEM y análisis de logs.",
+		"data": {
+			"technology": [
+				"splunk",
+				"wireshark",
+				"nessus",
+				"metasploit",
+				"firewalls",
+				"ids/ips",
+				"soc"
+			],
+			"mode": "mexico",
+			"seniority": "mid"
+		}
+	},
+	{
+		"id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+		"title": "React Native Developer",
+		"company": "Mobile First",
+		"location": "Remoto",
+		"description": "Estamos buscando un desarrollador React Native para crear aplicaciones móviles multiplataforma. Experiencia en desarrollo de apps nativas usando React Native y conocimientos en APIs.",
+		"data": {
+			"technology": [
+				"react native",
+				"javascript",
+				"typescript",
+				"redux",
+				"apis",
+				"firebase",
+				"git"
+			],
+			"mode": "remote",
+			"seniority": "mid"
 		}
 	}
 ]
